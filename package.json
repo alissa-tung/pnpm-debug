@@ -29,6 +29,11 @@
   "pnpm": {
     "overrides": {
       "monaco-editor": "$monaco-editor"
+    },
+    "peerDependencyRules": {
+      "allowedVersions": {
+        "monaco-editor": "$monaco-editor"
+      }
     }
   }
 }

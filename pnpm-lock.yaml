@@ -2579,7 +2579,7 @@ packages:
         integrity: sha512-KSN7FXdehjwnu1JbpfERVP8KGqioXabNmpDfmh1P5RcG2k6OTAyh5cmLg55AsI/upzUqbEuq1F4NUh7mASsY9w==,
       }
     peerDependencies:
-      monaco-editor: npm:@codingame/monaco-editor-treemended@^1.85.6
+      monaco-editor: npm:@codingame/monaco-editor-treemended@^1.85.6 || $monaco-editor
     dependencies:
       monaco-editor: /@codingame/monaco-editor-treemended@1.85.6
     dev: false
